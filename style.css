@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: rgb(230, 230, 230);
 }
 
 h1{
@@ -39,8 +39,8 @@ p{
     text-align: center;
 }
 
-.img-responsive{
-    border: 20px;
+.img-fluid{
+    border: 10px;
     box-shadow: 10px 10px 5px darkslategray;
 }
 
@@ -63,11 +63,7 @@ p{
 }
 
 #a4{
-    margin: 10px;
-}
-
-.button{
-    align-items: center;
+    margin: 5px;
 }
 
 
@@ -78,15 +74,20 @@ p{
     font-size: xx-large;  
 }
 
-.navbar-brand{
-    
-}
-
 #a0{
+    text-align: left;
     color: rgb(51, 131, 250);
     font-size: large;
 }
 
-.nav-link:hover{
-    color: greenyellow;
+#a0:hover{
+    color: rgb(189, 235, 98);
+}
+
+.btn{
+    margin-right: 20px;
+}
+
+.dropdown-menu{
+    background-color: black;
 }
