@@ -28,11 +28,15 @@ p{
 }
 
 .col-lg-4{
-    text-align: left;
+    text-align: center;
 }
 
 .col-lg-6{
     text-align: center;
+}
+
+.col-lg-8{
+    text-align: center
 }
 
 .col-lg-10{
@@ -66,6 +70,10 @@ p{
     margin: 5px;
 }
 
+#a10{
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 5px darkslategray;
+}
 
 .navbar{
     text-align: right;
@@ -90,4 +98,12 @@ p{
 
 .dropdown-menu{
     background-color: black;
+}
+
+.panel{
+    padding: 12px;
+    border: solid;
+    border-color: black;
+    text-align: center;
+
 }
